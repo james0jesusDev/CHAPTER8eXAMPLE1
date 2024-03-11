@@ -1,0 +1,50 @@
+﻿@using cHAPTER8eXAMPLE1.Models
+
+@model Applicant
+
+
+<div class="container">
+
+    <div class="row">
+
+        <form asp-controller="Admission" asp-action="Decision" method="post" >
+            <fieldset class="form-group">
+                <label asp-for="ApplicantName" class="control-label col-xs-2"></label>
+                <div class="col-xxs-10">
+
+                    <input asp-for="ApplicantName" />
+
+                </div>
+
+
+            </fieldset>
+
+
+
+            <fieldset class="form-group">
+                <label asp-for="ACTScore" class="control-label col-xs-2"></label>
+                <div class="col-xxs-10">
+
+                    <input asp-for="ACTScore" />
+
+                </div>
+
+
+            </fieldset>
+
+
+            <div class="col-xs-offset-2 col-xs-10"> 
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </div>
+
+
+        </form>
+
+
+    </div>
+
+
+
+</div>
