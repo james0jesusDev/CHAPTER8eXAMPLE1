@@ -24,7 +24,7 @@
             }
             else if (applicant.ACTScore >= MIN_ACT_SCORE)
             {
-                return "Rejected with low score";
+                return "Rejected whith low score";
             }
             else
             {
